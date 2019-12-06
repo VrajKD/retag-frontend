@@ -1,0 +1,26 @@
+.add-submit{
+    background: none;
+    border:none;
+    font-size: 0.8em;
+}
+
+.add-text{
+    padding: 1.25em;
+    font-size:0.7em;
+    font-weight: 800;
+}
+.add-text::placeholder{
+    font-weight: 200;
+}
+.add-tag{
+    padding: 0.8em;
+    font-size:0.8em;
+    background-color: #DC143C;
+    color: white;
+    font-weight: 00;
+}
+
+.add-tag::placeholder{
+    color: whitesmoke;
+    font-weight: 300;
+}

@@ -1,0 +1,35 @@
+/* .card-list::-webkit-scrollbar{
+    width: 1em;
+} */
+.dashboard{
+    width:100%;
+}
+.card-list{
+    overflow-x:auto;
+    width: auto;
+}
+
+.card-list::-webkit-scrollbar{
+    height: 0.4em;
+}
+
+.recent-cover{
+    margin-bottom:0.6em;
+}
+.card-list::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+.card-list::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #AAA;
+    height: 5em;
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);  */
+}
+
+.list-title{
+    font-size: 1.2em;
+    font-weight: 200;
+}

@@ -1,26 +1,63 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// import './components/Nav/nav.css';
+import Nav from './components/Nav/Nav';
+import Dashboard from './components/Dashboard/Dashboard';
+import 'tachyons';
+import TagList from './components/TagList/TagList';
+import AddTag from './components/AddTag/AddTag';
+import './App.css'
+
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      page: "dashboard"
+    }
+  }
+  onRouteChange = (link) => {
+    this.setState({
+      page: link
+    });
+  }
+  render() {
+    const page = this.state.page;
+    if (page === "dashboard") {
+      return (
+        <div className="App">
+          <Nav page={page} onRouteChange={this.onRouteChange} />
+          <div className="right-div"><Dashboard /></div>
+
+        </div>
+      );
+    }
+    else if (page === "add") {
+      return (
+        <div className="App">
+          <Nav page={page} onRouteChange={this.onRouteChange} />
+          <div className="right-div"><AddTag /></div>
+        </div>
+      );
+    }
+    else if (page === "list") {
+      return (
+        <div className="App">
+          <Nav page={page} onRouteChange={this.onRouteChange} />
+          <div className="right-div"><TagList /></div>
+        </div>
+      );
+    }
+
+
+    return (
+      <div className="App">
+        <Nav />
+        <Dashboard />
+      </div>
+    );
+  }
+
 }
+
 
 export default App;
