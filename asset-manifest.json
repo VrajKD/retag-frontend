@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/retag-frontend/static/css/main.305114ab.chunk.css",
+    "main.js": "/retag-frontend/static/js/main.c85d65e0.chunk.js",
+    "main.js.map": "/retag-frontend/static/js/main.c85d65e0.chunk.js.map",
+    "runtime-main.js": "/retag-frontend/static/js/runtime-main.c6f2a553.js",
+    "runtime-main.js.map": "/retag-frontend/static/js/runtime-main.c6f2a553.js.map",
+    "static/css/2.eb45ad44.chunk.css": "/retag-frontend/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.911b6bd3.chunk.js": "/retag-frontend/static/js/2.911b6bd3.chunk.js",
+    "static/js/2.911b6bd3.chunk.js.map": "/retag-frontend/static/js/2.911b6bd3.chunk.js.map",
+    "index.html": "/retag-frontend/index.html",
+    "precache-manifest.fbceec56815599aa48898d17665367ce.js": "/retag-frontend/precache-manifest.fbceec56815599aa48898d17665367ce.js",
+    "service-worker.js": "/retag-frontend/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "/retag-frontend/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.305114ab.chunk.css.map": "/retag-frontend/static/css/main.305114ab.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c6f2a553.js",
+    "static/css/2.eb45ad44.chunk.css",
+    "static/js/2.911b6bd3.chunk.js",
+    "static/css/main.305114ab.chunk.css",
+    "static/js/main.c85d65e0.chunk.js"
+  ]
+}
